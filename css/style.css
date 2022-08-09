@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #1B1A17;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header h2 {
+    padding: 2rem;
+}
+
+#logo {
+    text-decoration: none;
+    color: white;
+    font-size: 5rem;
+}
+
+.search-form {
+    padding: 2rem;
+    display: flex;
+}
+
+.search-form input{
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 100%;
+    border: none;
+    border: 2px solid black;
+}
+
+.search-form button {
+    border: non;
+    padding: 0.3rem;
+    font-size: 1rem;
+    background: #1B1A17;
+    color: white;
+    cursor: pointer;
+}
+
+.gallery-info{
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    color: gray;
+    padding: 0.5rem 0rem;
+}
+
+.gallery-info a {
+    color: gray;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    padding: 2rem 0rem;
+    width: 80%;
+    margin: auto;
+    row-gap: 5rem;
+    column-gap: 3rem;
+}
+
+.gallery-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 5px grey;
+}
+
+.nav-button {
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more {
+    padding: 1rem 3rem;
+    background: #1B1A17;
+    color: white;
+    border: non;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.main{
+    position: relative;
+    display: flex;
+}
+.decor {
+    background: blanchedalmond;
+    font-size: 3rem;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    color: white;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 430px) {
+    .gallery{
+        min-width: 95%;
+    }
+}
