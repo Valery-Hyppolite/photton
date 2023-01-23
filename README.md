@@ -1,5 +1,5 @@
 # photton
-live link: https://phoetton.tk
+live link: https://d3nagz5766cf6i.cloudfront.net/phoetton/phoetton.html
 
 A simple javascript website that fetches data from a remote database to render out photos. This website provides user the ability to search photos, and download them as need.
 
